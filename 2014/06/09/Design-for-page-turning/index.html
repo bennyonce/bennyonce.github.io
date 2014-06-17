@@ -9,10 +9,22 @@
     
     <meta name="author" content="Benny1ce">
     
-    <meta name="description" content="&amp;#x7FFB;&amp;#x9875;&amp;#x6309;&amp;#x94AE;&amp;#xFF1A;&amp;#xFF08;&amp;#x4FE1;&amp;#x606F;&amp;#x67E5;&amp;#x770B;&amp;#x7C7B;&amp;#xFF09;
+    <meta name="description" content="翻页按钮：（信息查看类）
 
-12/35 &amp;#xFF1A;&amp;#x6807;&amp;#x6CE8;&amp;#x4F4D;&amp;#x7F6E;
-&amp;lt;&amp;">
+12/35 ：标注位置
+&amp;lt;&amp;lt; : 快速回到首页
+&amp;lt; ：上一页
+下一页 ：文字按钮，主操作
+&amp;gt;&amp;gt; ：快速回到尾页
+
+1
+2
+3
+4
+5
+对于1，2，...，20的设计，当前位置和前后并不重要
+没有跳转到特定页面的需求，特别是在手机上
+对于评论类">
     
     
     
@@ -89,24 +101,24 @@
 		
 		</div>
 		
-		<p>&#x7FFB;&#x9875;&#x6309;&#x94AE;&#xFF1A;&#xFF08;&#x4FE1;&#x606F;&#x67E5;&#x770B;&#x7C7B;&#xFF09;</p>
+		<p>翻页按钮：（信息查看类）</p>
 <ul>
-<li><code>12/35</code> &#xFF1A;&#x6807;&#x6CE8;&#x4F4D;&#x7F6E;</li>
-<li><code>&lt;&lt;</code> : &#x5FEB;&#x901F;&#x56DE;&#x5230;&#x9996;&#x9875;</li>
-<li><code>&lt;</code> &#xFF1A;&#x4E0A;&#x4E00;&#x9875;</li>
-<li><code>&#x4E0B;&#x4E00;&#x9875;</code> &#xFF1A;&#x6587;&#x5B57;&#x6309;&#x94AE;&#xFF0C;&#x4E3B;&#x64CD;&#x4F5C;</li>
-<li><code>&gt;&gt;</code> &#xFF1A;&#x5FEB;&#x901F;&#x56DE;&#x5230;&#x5C3E;&#x9875;</li>
+<li><code>12/35</code> ：标注位置</li>
+<li><code>&lt;&lt;</code> : 快速回到首页</li>
+<li><code>&lt;</code> ：上一页</li>
+<li><code>下一页</code> ：文字按钮，主操作</li>
+<li><code>&gt;&gt;</code> ：快速回到尾页</li>
 </ul>
 <figure class="highlight java"><table><tr><td class="gutter"><pre>1
 2
 3
 4
 5
-</pre></td><td class="code"><pre>&#x5BF9;&#x4E8E;<span class="number">1</span>&#xFF0C;<span class="number">2</span>&#xFF0C;...&#xFF0C;<span class="number">20</span>&#x7684;&#x8BBE;&#x8BA1;&#xFF0C;&#x5F53;&#x524D;&#x4F4D;&#x7F6E;&#x548C;&#x524D;&#x540E;&#x5E76;&#x4E0D;&#x91CD;&#x8981;
-&#x6CA1;&#x6709;&#x8DF3;&#x8F6C;&#x5230;&#x7279;&#x5B9A;&#x9875;&#x9762;&#x7684;&#x9700;&#x6C42;&#xFF0C;&#x7279;&#x522B;&#x662F;&#x5728;&#x624B;&#x673A;&#x4E0A;
-&#x5BF9;&#x4E8E;&#x8BC4;&#x8BBA;&#x7C7B;&#x7684;&#x4E3B;&#x5BFC;&#x662F;&#x6309;&#x987A;&#x5E8F;&#x7FFB;&#x9875;
-&#x53EA;&#x9700;&#x8981;&#x6709;&#x524D;&#x540E;&#x7FFB;&#x9875;&#x5373;&#x53EF;
-&#x8BBA;&#x575B;&#x7C7B;&#x7684;&#x4F1A;&#x6709;&#x9996;&#x9875;&#x548C;&#x5C3E;&#x9875;&#x7684;&#x9700;&#x6C42;
+</pre></td><td class="code"><pre>对于<span class="number">1</span>，<span class="number">2</span>，...，<span class="number">20</span>的设计，当前位置和前后并不重要
+没有跳转到特定页面的需求，特别是在手机上
+对于评论类的主导是按顺序翻页
+只需要有前后翻页即可
+论坛类的会有首页和尾页的需求
 </pre></td></tr></table></figure>
   
 	</div>
