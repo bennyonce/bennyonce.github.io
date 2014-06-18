@@ -4,23 +4,35 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>Pacman Coding Solution | Benny1ce Blog</title>
+    <title>Tips for Theme | Benny1ce Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
     
     <meta name="author" content="Benny1ce">
     
-    <meta name="description" content="换上pacman主题很赞
-Error:摘要部分乱码md文件编译问题
-Solution:
+    <meta name="description" content="主题文件夹结构：
 1
 2
 3
-hexo v 1.6.1 版本问题
-升级hexo
-Done
-
-
-Tips:升级Hexo:  npm update -g hexoVim: 左右：J K 上下： H L    保存：:wq  查找：/t">
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+.
+├── languages          #多语言
+|   ├── default.yml    #默认语言
+|   └── zh-CN.yml      #中文语言
+├── layo">
     
     
     
@@ -77,15 +89,15 @@ Tips:升级Hexo:  npm update -g hexoVim: 左右：J K 上下： H L    保存：
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2014/06/17/Pacman-utf/" title="Pacman Coding Solution" itemprop="url">Pacman Coding Solution</a>
+      <a href="/2014/06/18/Tips-for-Theme/" title="Tips for Theme" itemprop="url">Tips for Theme</a>
   </h1>
   <p class="article-author">By
     
       <a href="http://yoursite.com" title="Benny1ce">Benny1ce</a>
     </p>
   <p class="article-time">
-    <time datetime="2014-06-17T09:32:30.000Z" itemprop="datePublished">Jun 17 2014</time>
-    Updated:<time datetime="2014-06-17T17:08:24.000Z" itemprop="dateModified">Jun 18 2014</time>
+    <time datetime="2014-06-18T11:18:53.000Z" itemprop="datePublished">Jun 18 2014</time>
+    Updated:<time datetime="2014-06-18T11:27:29.000Z" itemprop="dateModified">Jun 18 2014</time>
     
   </p>
 </header>
@@ -97,28 +109,51 @@ Tips:升级Hexo:  npm update -g hexoVim: 左右：J K 上下： H L    保存：
 		
 		</div>
 		
-		<p>换上pacman主题<br>很赞</p>
-<p>Error:<br><code>摘要部分乱码</code><br><code>md文件编译问题</code></p>
-<p>Solution:</p>
+		<p>主题文件夹结构：</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre>1
 2
 3
-</pre></td><td class="code"><pre>hexo v <span class="number">1.6</span><span class="number">.1</span> 版本问题
-升级hexo
-Done
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+</pre></td><td class="code"><pre>.
+├── languages          #多语言
+|   ├── <span class="keyword">default</span>.yml    #默认语言
+|   └── zh-CN.yml      #中文语言
+├── layout             #布局，根目录下的*.ejs文件是对主页，分页，存档等的控制
+|   ├── _partial       #局部的布局，此目录下的*.ejs是对头尾等局部的控制
+|   └── _widget        #小挂件的布局，页面下方小挂件的控制
+├── source             #源码
+|   ├── css            #css源码 
+|   |   ├── _base      #*.styl基础css
+|   |   ├── _partial   #*.styl局部css
+|   |   ├── fonts      #字体
+|   |   ├── images     #图片
+|   |   └── style.styl #*.styl引入需要的css源码
+|   ├── fancybox       #fancybox效果源码
+|   └── js             #javascript源代码
+├── _config.yml        #主题配置文件
+└── README.md          #用GitHub的都知道
 </pre></td></tr></table></figure>
-
-<p>Tips:<br>升级Hexo:  <code>npm update -g hexo</code><br>Vim: 左右：<code>J K</code> 上下： <code>H L</code><br>    保存：<code>:wq</code>  查找：<code>/text</code></p>
-<blockquote>
-<p>GG</p>
-</blockquote>
   
 	</div>
 		<footer class="article-footer clearfix">
 
   <div class="article-tags">
   
-  <span></span> <a href="/tags/Error-Solution/">Error Solution</a>
+  <span></span> <a href="/tags/Notes/">Notes</a>
   </div>
 
 
@@ -126,7 +161,7 @@ Done
 
 <div class="article-share" id="share">
 
-  <div data-url="http://yoursite.com/2014/06/17/Pacman-utf/" data-title="Pacman Coding Solution | Benny1ce Blog" data-tsina="null" class="share clearfix">
+  <div data-url="http://yoursite.com/2014/06/18/Tips-for-Theme/" data-title="Tips for Theme | Benny1ce Blog" data-tsina="null" class="share clearfix">
   </div>
 
 </div>
@@ -135,19 +170,11 @@ Done
 	
 <nav class="article-nav clearfix">
  
- <div class="prev" >
- <a href="/2014/06/18/Start-up-with-Color/" title="Start up with Color">
-  <strong>PREVIOUS:</strong><br/>
-  <span>
-  Start up with Color</span>
-</a>
-</div>
-
 
 <div class="next">
-<a href="/2014/06/17/Car-crash/"  title="Car crash">
+<a href="/2014/06/18/Start-up-with-Color/"  title="Start up with Color">
  <strong>NEXT:</strong><br/> 
- <span>Car crash
+ <span>Start up with Color
 </span>
 </a>
 </div>
