@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   
     <title>About | Benny1ce Blog</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
     
     <meta name="author" content="Benny1ce">
     
@@ -23,8 +23,6 @@
     <link rel="apple-touch-icon-precomposed" href="/img/pacman.jpg">
     
     <link rel="stylesheet" href="/css/style.css" type="text/css">
-    <link href="/css/hover.css" rel="stylesheet">
-    <link href="/css/bottom.css" rel="stylesheet">
 </head>
 
       <body>
@@ -32,27 +30,32 @@
           <div>
 		
 			<div id="imglogo">
-				<a rel="pulse" class="pulse" href="/"><img src="/img/pacman.png" alt="Benny1ce Blog" title="Benny1ce Blog"/></a>
+				<a href="/"><img src="/img/logo.svg" alt="Benny1ce Blog" title="Benny1ce Blog"/></a>
 			</div>
 			
 			<div id="textlogo">
-				<h1 class="site-name"><a rel="hover" class="hover" href="/" title="Benny1ce Blog">Benny1ce Blog</a></h1>
-				<h2 class="blog-motto"><a rel="wobble-to-bottom-right" class="wobble-to-bottom-right" href="#" title="#">We are starting here.</a></h2>
+				<h1 class="site-name"><a href="/" title="Benny1ce Blog">Benny1ce Blog</a></h1>
+				<h2 class="blog-motto">We are starting here.</h2>
 			</div>
-			<div class="navbar"><a rel="buzz" class="buzz" href="#" title="Menu">
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="Menu">
 			</a></div>
 			<nav class="animated">
 				<ul>
 					<ul>
 					 
-						<li><a rel="wobble-top" class="wobble-top" href="/">Home</a></li>
+						<li><a href="/">Home</a></li>
 					
-						<li><a rel="wobble-top" class="wobble-top" href="/archives">Menu</a></li>
+						<li><a href="/archives">Archives</a></li>
 					
-						<li><a rel="wobble-top" class="wobble-top" href="/tags">Index</a></li>
+					<li>
 					
-						<li><a rel="wobble-top" class="wobble-top" href="/about">About</a></li>
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="text" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Search" />
+						<input type="hidden" name="q" value="site:yoursite.com">
+					</form>
 					
+					</li>
 				</ul>
 			</nav>			
 </div>
@@ -117,15 +120,14 @@
 		
 		
 	</div>
-		<p class="copyright">Powered by <a rel="float-shadow" class="float-shadow" href="http://zespia.tw/hexo/" target="_blank" title="hexo">Hexo</a> and Theme by <a class="box-shadow-inset"href="https://github.com/uruir/pacmanhover" target="_blank" title="Pacman">PacmanHover</a> © 2014 
+		<p class="copyright">Powered by <a href="http://zespia.tw/hexo/" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/A-limon/pacman" target="_blank" title="Pacman">Pacman</a> © 2014 
 		
-		
-		<a class="wobble-horizontal" rel="wobble-horizontal" href="http://yoursite.com" target="_blank" title="Benny1ce">Benny1ce</a>
+		<a href="http://yoursite.com" target="_blank" title="Benny1ce">Benny1ce</a>
 		
 		</p>
 </div>
 </footer>
-        <script src="/js/jquery-2.0.3.min.js"></script>
+        <script src="/js/jquery-2.1.0.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){ 
   $('.navbar').click(function(){
@@ -202,7 +204,7 @@ $(document).ready(function(){
 
 
 <script type="text/javascript">
-  var duoshuoQuery = {short_name:"null"};
+  var duoshuoQuery = {short_name:"benny1ce"};
   (function() {
     var ds = document.createElement('script');
     ds.type = 'text/javascript';ds.async = true;
