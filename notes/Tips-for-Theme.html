@@ -1,5 +1,6 @@
 
- <!DOCTYPE HTML>
+  
+    <!DOCTYPE HTML>
 <html lang="English">
 <head>
   <meta charset="UTF-8">
@@ -47,9 +48,9 @@
     <link rel="stylesheet" href="/css/style.css" type="text/css">
 </head>
 
-  <body>
-    <header>
-      <div>
+      <body>
+        <header>
+          <div>
 		
 			<div id="imglogo">
 				<a href="/"><img src="/img/logo.svg" alt="Benny1ce Blog" title="Benny1ce Blog"/></a>
@@ -75,14 +76,14 @@
 			</nav>			
 </div>
 
-    </header>
-    <div id="container">
-      <div id="main" class="post" itemscope itemprop="blogPost">
+        </header>
+        <div id="container">
+          <div id="main" class="page" itemscope itemprop="blogPost">
 	<article itemprop="articleBody"> 
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2014/06/18/Tips-for-Theme/" title="Tips for Theme" itemprop="url">Tips for Theme</a>
+      <a href="/notes/Tips-for-Theme.html" title="Tips for Theme" itemprop="url">Tips for Theme</a>
   </h1>
   <p class="article-author">By
     
@@ -96,11 +97,6 @@
 </header>
 	<div class="article-content">
 		
-		
-		<div id="toc" class="toc-article">
-			<strong class="toc-title">Contents</strong>
-		
-		</div>
 		
 		<p>主题文件夹结构：</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre>1
@@ -146,7 +142,7 @@
 
   <div class="article-tags">
   
-  <span></span> <a href="/tags/Notes/">Notes</a>
+  <span></span> <a href="/undefined">undefined</a>
   </div>
 
 
@@ -154,85 +150,21 @@
 
 <div class="article-share" id="share">
 
-  <div data-url="http://yoursite.com/2014/06/18/Tips-for-Theme/" data-title="Tips for Theme | Benny1ce Blog" data-tsina="null" class="share clearfix">
+  <div data-url="http://yoursite.com/notes/Tips-for-Theme.html" data-title="Tips for Theme | Benny1ce Blog" data-tsina="null" class="share clearfix">
   </div>
 
 </div>
 </footer>   	       
 	</article>
 	
-<nav class="article-nav clearfix">
- 
- <div class="prev" >
- <a href="/2014/06/18/Minus-Widgets/" title="Minus Widgets">
-  <strong>PREVIOUS:</strong><br/>
-  <span>
-  Minus Widgets</span>
-</a>
-</div>
-
-
-<div class="next">
-<a href="/2014/06/18/Start-up-with-Color/"  title="Start up with Color">
- <strong>NEXT:</strong><br/> 
- <span>Start up with Color
-</span>
-</a>
-</div>
-
-</nav>
-
 	
 <section class="comment">
 	<div class="ds-thread"></div>
 </section>
 
 </div>  
-      <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
-
-  <div id="toc" class="toc-aside">
-  <strong class="toc-title">Contents</strong>
-  
-  </div>
-
-<div id="asidepart">
-<div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
-<aside class="clearfix">
-
-  
-
-  
-<div class="tagslist">
-	<p class="asidetitle">Tags</p>
-		<ul class="clearfix">
-		
-			<li><a href="/tags/Diary/" title="Diary">Diary<sup>5</sup></a></li>
-		
-			<li><a href="/tags/Error-Solution/" title="Error Solution">Error Solution<sup>3</sup></a></li>
-		
-			<li><a href="/tags/Mark/" title="Mark">Mark<sup>2</sup></a></li>
-		
-			<li><a href="/tags/Notes/" title="Notes">Notes<sup>1</sup></a></li>
-		
-			<li><a href="/tags/Record/" title="Record">Record<sup>5</sup></a></li>
-		
-		</ul>
-</div>
-
-
-  
-  <div class="tagcloudlist">
-    <p class="asidetitle">Tag Cloud</p>
-    <div class="tagcloudlist clearfix">
-       <a href="/tags/Diary/" style="font-size: 20.00px;">Diary</a><a href="/tags/Error-Solution/" style="font-size: 16.67px;">Error Solution</a><a href="/tags/Mark/" style="font-size: 13.33px;">Mark</a><a href="/tags/Notes/" style="font-size: 10.00px;">Notes</a><a href="/tags/Record/" style="font-size: 20.00px;">Record</a>
-    </div>
-  </div>
-
-
-</aside>
-</div>
-    </div>
-    <footer><div id="footer" >
+        </div>
+        <footer><div id="footer" >
 	
 	<div class="line">
 		<span></span>
@@ -253,7 +185,7 @@
 		</p>
 </div>
 </footer>
-    <script src="/js/jquery-2.1.0.min.js"></script>
+        <script src="/js/jquery-2.1.0.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){ 
   $('.navbar').click(function(){
@@ -280,8 +212,6 @@ $(document).ready(function(){
       m.removeClass('moveMain');
       a.css('display', 'block').removeClass('fadeOut');
       o.css('display', 'none');
-      
-      $('#toc.toc-aside').css('display', 'none');
         
     }
   });
@@ -298,38 +228,6 @@ $(document).ready(function(){
   $(window).scroll(function(){
     o.css("top",Math.max(80,260-$(this).scrollTop()));
   });
-});
-</script>
-
-<script type="text/javascript">
-$(document).ready(function(){ 
-  var ai = $('.article-content>iframe'),
-      ae = $('.article-content>embed'),
-      t  = $('#toc'),
-      h  = $('article h2')
-      ah = $('article h2'),
-      ta = $('#toc.toc-aside'),
-      o  = $('.openaside'),
-      c  = $('.closeaside');
-  if(ai.length>0){
-    ai.wrap('<div class="video-container" />');
-  };
-  if(ae.length>0){
-   ae.wrap('<div class="video-container" />');
-  };
-  if(ah.length==0){
-    t.css('display','none');
-  }else{
-    c.click(function(){
-      ta.css('display', 'block').addClass('fadeIn');
-    });
-    o.click(function(){
-      ta.css('display', 'none');
-    });
-    $(window).scroll(function(){
-      ta.css("top",Math.max(140,320-$(this).scrollTop()));
-    });
-  };
 });
 </script>
 
@@ -400,5 +298,6 @@ $(document).ready(function(){
 
 
 
-  </body>
-</html>
+      </body>
+     </html>
+     
