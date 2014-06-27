@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   
     <title>RarMachine Extract Solution | Benny1ce Blog</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="Benny1ce">
     
@@ -30,6 +30,8 @@ Solution :
     <link rel="apple-touch-icon-precomposed" href="/img/pacman.jpg">
     
     <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link href="/css/hover.css" rel="stylesheet">
+    <link href="/css/bottom.css" rel="stylesheet">
 </head>
 
   <body>
@@ -37,24 +39,26 @@ Solution :
       <div>
 		
 			<div id="imglogo">
-				<a href="/"><img src="/img/logo.svg" alt="Benny1ce Blog" title="Benny1ce Blog"/></a>
+				<a rel="pulse" class="pulse" href="/"><img src="/img/pacman.png" alt="Benny1ce Blog" title="Benny1ce Blog"/></a>
 			</div>
 			
 			<div id="textlogo">
-				<h1 class="site-name"><a href="/" title="Benny1ce Blog">Benny1ce Blog</a></h1>
-				<h2 class="blog-motto">We are starting here.</h2>
+				<h1 class="site-name"><a rel="hover" class="hover" href="/" title="Benny1ce Blog">Benny1ce Blog</a></h1>
+				<h2 class="blog-motto"><a rel="wobble-to-bottom-right" class="wobble-to-bottom-right" href="#" title="#">We are starting here.</a></h2>
 			</div>
-			<div class="navbar"><a class="navbutton navmobile" href="#" title="Menu">
+			<div class="navbar"><a rel="buzz" class="buzz" href="#" title="Menu">
 			</a></div>
 			<nav class="animated">
 				<ul>
 					<ul>
 					 
-						<li><a href="/">Home</a></li>
+						<li><a rel="wobble-top" class="wobble-top" href="/">Home</a></li>
 					
-						<li><a href="/notes">Notes</a></li>
+						<li><a rel="wobble-top" class="wobble-top" href="/archives">Menu</a></li>
 					
-						<li><a href="/archives">Archives</a></li>
+						<li><a rel="wobble-top" class="wobble-top" href="/tags">Index</a></li>
+					
+						<li><a rel="wobble-top" class="wobble-top" href="/about">About</a></li>
 					
 				</ul>
 			</nav>			
@@ -162,6 +166,15 @@ Solution :
 
   
 
+
+  <div class="linkslist">
+<h3 rel="grow" class="grow asidetitle">友情链接</h3>
+<ul class="entry">
+<li><a rel="grow" class="grow" href="http://blog.jobbole.com" title="伯乐在线">伯乐在线</a></li>
+</ul>
+</div>
+
+
   
 <div class="tagslist">
 	<p class="asidetitle">Tags</p>
@@ -179,6 +192,17 @@ Solution :
 		
 		</ul>
 </div>
+
+
+  <div class="rsspart">
+	<a href="null" target="_blank" title="rss">RSS</a>
+</div>
+
+  
+  <div class="archiveslist">
+    <p class="asidetitle"><a href="/archives">Archives</a></p>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06">June 2014</a><span class="archive-list-count">17</span></li></ul>
+  </div>
 
 
   
@@ -207,14 +231,15 @@ Solution :
 		
 		
 	</div>
-		<p class="copyright">Powered by <a href="http://zespia.tw/hexo/" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/A-limon/pacman" target="_blank" title="Pacman">Pacman</a> © 2014 
+		<p class="copyright">Powered by <a rel="float-shadow" class="float-shadow" href="http://zespia.tw/hexo/" target="_blank" title="hexo">Hexo</a> and Theme by <a class="box-shadow-inset"href="https://github.com/uruir/pacmanhover" target="_blank" title="Pacman">PacmanHover</a> © 2014 
 		
-		<a href="http://yoursite.com" target="_blank" title="Benny1ce">Benny1ce</a>
+		
+		<a class="wobble-horizontal" rel="wobble-horizontal" href="http://yoursite.com" target="_blank" title="Benny1ce">Benny1ce</a>
 		
 		</p>
 </div>
 </footer>
-    <script src="/js/jquery-2.1.0.min.js"></script>
+    <script src="/js/jquery-2.0.3.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){ 
   $('.navbar').click(function(){
@@ -325,7 +350,7 @@ $(document).ready(function(){
 
 
 <script type="text/javascript">
-  var duoshuoQuery = {short_name:"benny1ce"};
+  var duoshuoQuery = {short_name:"null"};
   (function() {
     var ds = document.createElement('script');
     ds.type = 'text/javascript';ds.async = true;
