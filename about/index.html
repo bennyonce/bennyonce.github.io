@@ -72,7 +72,7 @@
     </p>
   <p class="article-time">
     <time datetime="2014-06-28T13:12:36.000Z" itemprop="datePublished">Jun 28 2014</time>
-    Updated:<time datetime="2014-07-05T17:09:31.000Z" itemprop="dateModified">Jul 6 2014</time>
+    Updated:<time datetime="2014-07-05T17:11:10.000Z" itemprop="dateModified">Jul 6 2014</time>
     
   </p>
 </header>
@@ -81,7 +81,7 @@
 		
 		<p>OSX 的文件系统<br>OSX 采用的Unix文件系统，所有文件都挂在跟目录 / 下面，所以不在要有Windows 下的盘符概念。 </p>
 <ul>
-<li>你在桌面上看到的硬盘都挂在 /Volumes 下。<br>比如接上个叫做 USBHD的移动硬盘，桌面上会显示出一个硬盘图标，它实际在哪里呢？<br>在终端里执行 ls /Volumes/USBHD, 看看显示出的是不是这个移动硬盘的内容。<br>根目录位置是 / 核心 Mach_kernel 就在这里，<br>驱动所在位置 /Systme/Library/Extensions<br>用户文件夹位置 /User/用户名<br>桌面的位置 /User/用户名/Desktop<br>文件通配符为星号 *<br>注意：在 Unix系统中是区别大小写字符的，A.txt 不等于 a.txt。<br>根目录标志 / 不是可有可无，cd /System 表示转到跟目录下的System中，而cd System 表示转到当前目录下的 System中<br>——————————————————————————————————————————————<br>获得权限<br>为了防止误操作破坏系统，再用户状态下时没有权限操作系统重要文件的，所以先要取得root权限<br><code>sudo －s</code><br>然后输入密码，输入密码时没有任何回显，连星号都没有，只管输完回车就行了。<br>——————————————————————————————————————————————<br>基本命令 </li>
+<li>你在桌面上看到的硬盘都挂在 /Volumes 下。<br>比如接上个叫做 USBHD的移动硬盘，桌面上会显示出一个硬盘图标，它实际在哪里呢？<br>在终端里执行 ls /Volumes/USBHD, 看看显示出的是不是这个移动硬盘的内容。<br>根目录位置是 / 核心 Mach_kernel 就在这里，<br>驱动所在位置 /Systme/Library/Extensions<br>用户文件夹位置 /User/用户名<br>桌面的位置 /User/用户名/Desktop<br>文件通配符为星号 *<br>注意：在 Unix系统中是区别大小写字符的，A.txt 不等于 a.txt。<br>根目录标志 / 不是可有可无，cd /System 表示转到跟目录下的System中，而cd System 表示转到当前目录下的 System中<br>————————————————————————————————————<br>获得权限<br>为了防止误操作破坏系统，再用户状态下时没有权限操作系统重要文件的，所以先要取得root权限<br><code>sudo －s</code><br>然后输入密码，输入密码时没有任何回显，连星号都没有，只管输完回车就行了。<br>————————————————————————————————————<br>基本命令 </li>
 <li>列出文件<br>ls 参数 目录名<br>参数: -w 显示中文，-l 详细信息， -a 包括隐藏文件 </li>
 <li>转换目录<br>cd </li>
 <li>建立新目录<br>mkdir 目录名 </li>
