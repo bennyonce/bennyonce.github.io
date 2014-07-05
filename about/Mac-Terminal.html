@@ -5,10 +5,14 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>Notes | Benny1ce Blog</title>
+    <title>Mac Terminal | Benny1ce Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
     
     <meta name="author" content="Benny1ce">
+    
+    <meta name="description" content="OSX 的文件系统OSX 采用的Unix文件系统，所有文件都挂在跟目录 / 下面，所以不在要有Windows 下的盘符概念。 
+
+你在桌面上看到的硬盘都挂在 /Volumes 下。比如接上个叫做 USBHD的移动硬盘，桌面上会显示出一个硬盘图标，它实际在哪里呢？在终端里执行 ls /Volumes/">
     
     
     
@@ -60,31 +64,46 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/notes/index.html" title="Notes" itemprop="url">Notes</a>
+      <a href="/about/Mac-Terminal.html" title="Mac Terminal" itemprop="url">Mac Terminal</a>
   </h1>
   <p class="article-author">By
     
       <a href="http://yoursite.com" title="Benny1ce">Benny1ce</a>
     </p>
   <p class="article-time">
-    <time datetime="2014-06-18T12:04:09.000Z" itemprop="datePublished">Jun 18 2014</time>
-    Updated:<time datetime="2014-07-05T17:03:51.000Z" itemprop="dateModified">Jul 6 2014</time>
+    <time datetime="2014-06-28T13:12:36.000Z" itemprop="datePublished">Jun 28 2014</time>
+    Updated:<time datetime="2014-06-28T13:20:01.000Z" itemprop="dateModified">Jun 28 2014</time>
     
   </p>
 </header>
 	<div class="article-content">
 		
 		
-		  
+		<p>OSX 的文件系统<br>OSX 采用的Unix文件系统，所有文件都挂在跟目录 / 下面，所以不在要有Windows 下的盘符概念。 </p>
+<ul>
+<li>你在桌面上看到的硬盘都挂在 /Volumes 下。<br>比如接上个叫做 USBHD的移动硬盘，桌面上会显示出一个硬盘图标，它实际在哪里呢？<br>在终端里执行 ls /Volumes/USBHD, 看看显示出的是不是这个移动硬盘的内容。<br>根目录位置是 / 核心 Mach_kernel 就在这里，<br>驱动所在位置 /Systme/Library/Extensions<br>用户文件夹位置 /User/用户名<br>桌面的位置 /User/用户名/Desktop<br>文件通配符为星号 *<br>注意：在 Unix系统中是区别大小写字符的，A.txt 不等于 a.txt。<br>根目录标志 / 不是可有可无，cd /System 表示转到跟目录下的System中，而cd System 表示转到当前目录下的 System中<br>——————————————————————————————————————————————<br>获得权限<br>为了防止误操作破坏系统，再用户状态下时没有权限操作系统重要文件的，所以先要取得root权限<br><code>sudo －s</code><br>然后输入密码，输入密码时没有任何回显，连星号都没有，只管输完回车就行了。<br>——————————————————————————————————————————————<br>基本命令 </li>
+<li>列出文件<br>ls 参数 目录名<br>参数: -w 显示中文，-l 详细信息， -a 包括隐藏文件 </li>
+<li>转换目录<br>cd </li>
+<li>建立新目录<br>mkdir 目录名 </li>
+<li>拷贝文件<br>cp 参数 源文件 目标文件 </li>
+<li>rm 参数 文件<br>参数－rf 表示递归和强制，千万要小心使用，如果执行了 rm -rf / 你的系统就全没了 </li>
+<li>移动文件<br>mv 文件<br>————————————————————————————————————<br>小技巧<br>用 Tab 键自动补齐命令<br>比如想到 /System 目录中去，输入 cd /Sy 然后按一下Tab 键，命令就会自动补齐成 cd /System<br>操作带名字中带有空格的文件和目录<br>空格在命令中写成 空格， 比如要进入 My Documents，命令为 cd My Documents<br>查看命令的详细帮助<br>man 命令名<br>比如要看看 ls 命令的详细用法，执行 man ls<br>———————————————————————————————————— </li>
+</ul>
+  
 	</div>
 		<footer class="article-footer clearfix">
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/undefined">undefined</a>
+  </div>
 
 
 
 
 <div class="article-share" id="share">
 
-  <div data-url="http://yoursite.com/notes/index.html" data-title="Notes | Benny1ce Blog" data-tsina="null" class="share clearfix">
+  <div data-url="http://yoursite.com/about/Mac-Terminal.html" data-title="Mac Terminal | Benny1ce Blog" data-tsina="null" class="share clearfix">
   </div>
 
 </div>
