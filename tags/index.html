@@ -1,10 +1,10 @@
 
-  <!DOCTYPE HTML>
+ <!DOCTYPE HTML>
 <html lang="English">
 <head>
   <meta charset="UTF-8">
   
-    <title>Tag: Mark | Benny1ce Blog</title>
+    <title>Tag: undefined | Benny1ce Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
     
     <meta name="author" content="Benny1ce">
@@ -52,61 +52,29 @@
 
       </header>
       <div id="container">
-        
-
+          
 <div class="archive-title" >
-  <h2 class="tag-icon">Mark</h2>
-  
+<h2 class="tag-icon">Tags</h2>
+
+<a data-src="/tags/Diary/" href="#Diary" title="Diary">Diary<sup>5</sup></a>
+
+<a data-src="/tags/Error-Solution/" href="#Error Solution" title="Error Solution">Error Solution<sup>3</sup></a>
+
+<a data-src="/tags/Mark/" href="#Mark" title="Mark">Mark<sup>2</sup></a>
+
+<a data-src="/tags/Notes/" href="#Notes" title="Notes">Notes<sup>2</sup></a>
+
+<a data-src="/tags/Record/" href="#Record" title="Record">Record<sup>5</sup></a>
+
 </div>
-<div id="main" class="archive-part clearfix">
-  <div id="archive-page">
-
-  <section class="post" itemscope itemprop="blogPost">
-  
-    <a href="/2014/06/13/MARKer140613/" title="MARKer" itemprop="url">
-  
-    <h1 itemprop="name">MARKer</h1>
-    
-    <time datetime="2014-06-13T03:16:21.000Z" itemprop="datePublished">Jun 13 2014</time>
-  </a>
-</section>
-
-  <section class="post" itemscope itemprop="blogPost">
-  
-    <a href="/2014/06/10/MARKer140610/" title="MARKer" itemprop="url">
-  
-    <h1 itemprop="name">MARKer</h1>
-    
-    <time datetime="2014-06-10T06:02:14.000Z" itemprop="datePublished">Jun 10 2014</time>
-  </a>
-</section>
-
-
-  </div>
+<div id="main" class="archive-part">
+<div class="all-list-box"></div>
 </div>
+
+
+
 
       </div>
-      <footer><div id="footer" >
-	
-	<div class="line">
-		<span></span>
-		<div class="author"></div>
-	</div>
-	
-	
-	<div class="social-font" class="clearfix">
-		
-		
-		
-		
-	</div>
-		<p class="copyright">Powered by <a href="http://zespia.tw/hexo/" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/A-limon/pacman" target="_blank" title="Pacman">Pacman</a> © 2014 
-		
-		<a href="http://benny1ce.com" target="_blank" title="Benny1ce">Benny1ce</a>
-		
-		</p>
-</div>
-</footer>
       <script src="/js/jquery-2.1.0.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){ 
@@ -155,6 +123,24 @@ $(document).ready(function(){
 
 
 
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var list    = $('.archive-title a'),
+      box     = $('.all-list-box'),
+      first   = $('.archive-title a:first-of-type');
+      box.load(first.attr('data-src').toString()+' #archive-page');
+      first.addClass('current');
+  list.each(function(){
+    $(this).click(function(){
+      var listSrc=$(this).attr('data-src').toString()+' #archive-page';
+      box.load(listSrc);
+      list.removeClass('current');
+      $(this).addClass('current');
+     });  
+    });
+  }); 
+</script>
 
 
 
