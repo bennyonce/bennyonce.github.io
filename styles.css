@@ -1,0 +1,151 @@
+/* CSS Document */
+
+* {
+	padding:0;
+	margin:0;
+}
+body {
+	background:url(images/backgroundl.jpg) fixed no-repeat #191919;
+	background-position:center top;
+}
+.clear {
+	clear:both
+}
+#wrap {
+	width:960px;
+	padding:0 10px;
+	margin:0 auto;
+	position:relative;
+	min-height:2000px;
+}
+#header {
+	background:url(images/header-bg.png) no-repeat;
+	width:940px;
+	height:384px;
+}
+h2#logo {
+	background:url(images/logo.png);
+	width:200px;
+	height:64px;
+	text-indent:-999px;
+	position:relative;
+	top:55px;
+}
+ul#nav {
+	position:relative;
+	left:250px;
+}
+ul#nav li {
+	float:left;
+	list-style:none;
+	height:38px;
+}
+ul#nav li a {
+	display:block;
+	height:38px;
+	outline:none;
+	text-indent:-9999px;
+	background:url(images/navigation.png) no-repeat;
+}
+ul#nav li a#rec {
+	width:123px;
+	margin-right:14px;
+}
+ul#nav li a:hover#rec {
+	position:relative;
+	top:-1px;
+}
+ul#nav li a#con {
+	background-position:-136px 0;
+	width:112px;
+}
+ul#nav li a:hover#con {
+	position:relative;
+	top:-1px;
+}
+
+div a#bac{
+	background:url(images/backtotop.png) no-repeat #191919;
+	right: 200px;
+}
+#header p {
+	width:565px;
+	height:184px;
+	background:url(images/idesignwebsites.png);
+	text-indent:-9999px;
+	position:relative;
+	top:105px;
+}
+#testimonials {
+	height:283px;
+	width:940px;
+	background:url(images/testimonials-bg.png);
+}
+#testimonials h2 {
+	background:url(images/somekindwords.png);
+	width:369px;
+	height:21px;
+	position:relative;
+	top:12px;
+	left:42px;
+	text-indent:-9999px;
+}
+#testimonials .col {
+	float:left;
+	width:230px;
+	padding:40px;
+	font-family:georgia;
+	font-size:14px;
+	font-style:italic;
+	text-shadow:0 1px 1px #000;
+	color:#424242;
+	line-height:20px;
+}
+#quotes {
+	background:url(images/quotes-bg.png);
+	width:940px;
+	height:481px;
+	position:relative;
+	top:-62px;
+}
+p#quote-1 {
+	background:url(images/quote-1.png);
+	width:538px;
+	height:199px;
+	position:relative;
+	top:100px;
+	left:385px;
+	text-indent:-9999px;
+}
+p#quote-2 {
+	background:url(images/quote-2.png);
+	width:575px;
+	height:141px;
+	position:relative;
+	top:100px;
+	left:342px;
+	text-indent:-9999px;
+}
+
+/*dynamically added*/
+div.wrapper {
+	width:218px;
+	height:218px;
+	overflow:hidden;
+	position:relative;
+	background:#000000;
+}
+div.caption {
+	font-family:arial;
+	font-weight:bold;
+	font-size:16px;
+	position:relative;
+	text-align:center;
+	padding:45px 15px 15px 15px;
+	background:url(images/caption-bg.png) repeat-x;
+	min-height:125px;
+	color:#d20000;
+	text-shadow:0 1px 1px #999;
+	text-transform:capitalize;
+	line-height:16px;
+}
