@@ -16,7 +16,7 @@ body {
 	padding:0 10px;
 	margin:0 auto;
 	position:relative;
-	min-height:2000px;
+	min-height:1000px;
 }
 #header {
 	background:url(images/header-bg.png) no-repeat;
@@ -25,6 +25,7 @@ body {
 }
 h2#logo {
 	background:url(images/logo.png);
+	/* font:chalkduster */
 	width:200px;
 	height:64px;
 	text-indent:-999px;
@@ -53,7 +54,7 @@ ul#nav li a#rec {
 }
 ul#nav li a:hover#rec {
 	position:relative;
-	top:-1px;
+	top:-3px;
 }
 ul#nav li a#con {
 	background-position:-136px 0;
@@ -61,13 +62,9 @@ ul#nav li a#con {
 }
 ul#nav li a:hover#con {
 	position:relative;
-	top:-1px;
+	top:-3px;
 }
 
-div a#bac{
-	background:url(images/backtotop.png) no-repeat #191919;
-	right: 200px;
-}
 #header p {
 	width:565px;
 	height:184px;
