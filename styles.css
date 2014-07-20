@@ -81,9 +81,9 @@ ul#nav li a:hover#con {
 #testimonials h2 {
 	background:url(images/somekindwords.png);
 	width:369px;
-	height:21px;
+	height:35px;
 	position:relative;
-	top:12px;
+	top:4px;
 	left:42px;
 	text-indent:-9999px;
 }
