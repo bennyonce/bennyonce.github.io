@@ -109,12 +109,12 @@ ul#nav li a:hover#gallery {
 	top:-62px;
 }
 p#quote-1 {
-	background:url(images/quote-1.png);
+	background:url(images/quote-1.png) no-repeat;
 	width::80px;
 	height:199px;
 	position:relative;
 	top:100px;
-	left:805px;
+	left:40px;
 	text-indent:-9999px;
 }
 p#quote-2 {
