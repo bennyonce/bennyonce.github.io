@@ -12,78 +12,81 @@ body {
 	clear:both
 }
 #wrap {
-	width:960px;
+	width:1180px;
+	height: 150px;
 	padding:0 10px;
 	margin:0 auto;
 	position:relative;
 	min-height:1000px;
 }
 #header {
-	background:url(images/header-bg.png) no-repeat;
-	width:940px;
-	height:384px;
+	width:1180px;
+	height:210px;
+}
+
+#board{
+	width:1180px;
+	height: 300px;
+	background-color: #000;
+
 }
 h2#logo {
-	background:url(images/logo.png);
+	background:url(images/logo.png) no-repeat;
 	/* font:chalkduster */
-	width:200px;
-	height:64px;
+	width:250px;
+	height:130px;
 	text-indent:-999px;
 	position:relative;
 	top:55px;
+	left: 50px;
 }
 ul#nav {
 	position:relative;
-	left:250px;
+	left:380px;
+	top:-40px;
 }
 ul#nav li {
 	float:left;
 	list-style:none;
-	height:38px;
+	height:80px;
 }
 ul#nav li a {
 	display:block;
-	height:38px;
+	height:80px;
 	outline:none;
 	text-indent:-9999px;
 	background:url(images/navigation.png) no-repeat;
+
 }
-ul#nav li a#rec {
-	width:123px;
-	margin-right:14px;
+ul#nav li a#blog {
+	width:80px;
+	margin-right:14px
 }
-ul#nav li a:hover#rec {
+ul#nav li a:hover#blog {
 	position:relative;
 	top:-3px;
 }
-ul#nav li a#con {
-	background-position:-136px 0;
-	width:112px;
+ul#nav li a#gallery {
+	background-position:-80px 0;
+	width:125px;
 }
-ul#nav li a:hover#con {
+ul#nav li a:hover#gallery {
 	position:relative;
 	top:-3px;
 }
 
-#header p {
-	width:565px;
-	height:184px;
-	background:url(images/idesignwebsites.png);
-	text-indent:-9999px;
-	position:relative;
-	top:105px;
-}
+
 #testimonials {
 	height:283px;
-	width:940px;
-	background:url(images/testimonials-bg.png);
+	width:1180px;
+	background:url(images/testimonials-bg.png) no-repeat;
 }
 #testimonials h2 {
-	background:url(images/somekindwords.png);
+	background:url(images/whatsinmymind.png) no-repeat;
 	width:369px;
 	height:35px;
 	position:relative;
-	top:4px;
+	top:6px;
 	left:42px;
 	text-indent:-9999px;
 }
@@ -99,19 +102,19 @@ ul#nav li a:hover#con {
 	line-height:20px;
 }
 #quotes {
-	background:url(images/quotes-bg.png);
-	width:940px;
+	background:url(images/quotes-bg.png) no-repeat;
+	width:1180px;
 	height:481px;
 	position:relative;
 	top:-62px;
 }
 p#quote-1 {
 	background:url(images/quote-1.png);
-	width:538px;
+	width::80px;
 	height:199px;
 	position:relative;
 	top:100px;
-	left:385px;
+	left:805px;
 	text-indent:-9999px;
 }
 p#quote-2 {
