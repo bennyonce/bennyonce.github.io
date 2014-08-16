@@ -17,7 +17,6 @@ body {
 	padding:0 10px;
 	margin:0 auto;
 	position:relative;
-	min-height:1000px;
 }
 #header {
 	width:1180px;
@@ -59,7 +58,7 @@ ul#nav li a {
 
 }
 ul#nav li a#blog {
-	width:80px;
+	width:90px;
 	margin-right:14px
 }
 ul#nav li a:hover#blog {
@@ -67,8 +66,8 @@ ul#nav li a:hover#blog {
 	top:-3px;
 }
 ul#nav li a#gallery {
-	background-position:-80px 0;
-	width:125px;
+	background-position:-95px 0;
+	width:165px;
 }
 ul#nav li a:hover#gallery {
 	position:relative;
@@ -80,6 +79,8 @@ ul#nav li a:hover#gallery {
 	height:283px;
 	width:1180px;
 	background:url(images/testimonials-bg.png) no-repeat;
+	margin-left: 35px;
+
 }
 #testimonials h2 {
 	background:url(images/whatsinmymind.png) no-repeat;
@@ -106,7 +107,8 @@ ul#nav li a:hover#gallery {
 	width:1180px;
 	height:481px;
 	position:relative;
-	top:-62px;
+	top:-50px;
+	margin-left: 80px;
 }
 p#quote-1 {
 	background:url(images/quote-1.png) no-repeat;
@@ -114,7 +116,7 @@ p#quote-1 {
 	height:199px;
 	position:relative;
 	top:100px;
-	left:400px;
+	left:500px;
 	text-indent:-9999px;
 }
 p#quote-2 {
